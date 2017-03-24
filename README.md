@@ -72,6 +72,15 @@ from flask_sslify import SSLify
 sslify = SSLify(app)
 ```
 
+Import your `app.config` from a file.
+
+```python
+app.config.from_object('<file_name>')
+
+# now get your configuration variables with
+app.config.get('CORS_HEADERS')
+```
+
 ### node.js
 
 Use HTTPS/SSL on your web application. Don't forget to `npm install express-force-https`.
