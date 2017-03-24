@@ -79,6 +79,11 @@ app.config.from_object('<file_name>')
 app.config.get('CORS_HEADERS')
 ```
 
+Using a `placeholder` in your WTForms form. Don't forget to `pip install wtforms`.
+
+```python
+name = StringField('Name', render_kw={"placeholder": "Your name in here"})
+```
 ### node.js
 
 Use HTTPS/SSL on your web application. Don't forget to `npm install express-force-https`.
