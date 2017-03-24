@@ -7,6 +7,10 @@ Basically a repository with handy code snippets. Not only related to programming
 
 ## Programming Languages
 
+### Java
+
+To centralize a JFrame in the middle of the screen use `this.setLocationRelativeTo(null);`.
+
 ### Python
 
 Sort a list of dictionaries based on a key.
