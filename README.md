@@ -48,6 +48,18 @@ aList = [
 sorted(aList, key=lambda k: k['release_date']['year'])
 ```
 
+### R
+
+Read a file `ALL.txt` and coverts all the names in the columns to comma-separated string.
+
+```R
+names <- readLines("ALL.txt")
+listOfNames <- ""
+for (i in names) { listOfNames <- paste(listOfNames, "," , i) }
+listOfNames <- gsub(" ", "", listOfNames)
+substr(listOfNames, 2, nchar(listOfNames))
+```
+
 ## Frameworks
 
 ### Flask
