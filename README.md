@@ -76,8 +76,6 @@ Import your `app.config` from a file.
 
 ```python
 app.config.from_object('<file_name>')
-
-# now get your configuration variables with
 app.config.get('CORS_HEADERS')
 ```
 
