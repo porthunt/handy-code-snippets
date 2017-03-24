@@ -26,26 +26,7 @@ def sortedList(aList, aKey):
 It is also possible to sort by a key of a key.
 
 ```python
-aList = [
-  {
-    'name': 'Boyhood',
-    'release_date': {
-        'day': 11,
-        'month': 'July',
-        'year': 2014
-      },
-  },
-  {
-     'name': 'Citizen Kane',
-     'release_date': {
-        'day': 5,
-        'month': 'September',
-        'year': 1941
-      }
-  }
-]
-
-sorted(aList, key=lambda k: k['release_date']['year'])
+sorted(anotherList, key=lambda k: k['release_date']['year'])
 ```
 
 ### R
