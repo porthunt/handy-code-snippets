@@ -110,6 +110,7 @@ Notable commands:
 - Check your systems specs on your Terminal: `lshw` Use `--short` to show a short version.
 
 ### Unix
+
 These commands are valid for Linux and macOS.
 
 - `tail -f foo.log` to keep the file opened and showing the last updates on your file. Very useful for system logs.
@@ -117,3 +118,7 @@ These commands are valid for Linux and macOS.
 - `mkdir` to create a new directory.
 - `pwd` to show the current path.
 - `whoami` to show the current logged user.
+
+### macOS
+
+- `say <something>` and your Mac will say `<something>` to you.
