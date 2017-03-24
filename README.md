@@ -82,6 +82,10 @@ var app = express();
 app.use(secure);
 ```
 
+### pytest
+
+Use `-s` option to show all prints when using `pytest` command.
+
 ## Continuous Integration
 
 ### TravisCI
