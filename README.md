@@ -50,7 +50,7 @@ sorted(aList, key=lambda k: k['release_date']['year'])
 
 ### R
 
-Read a file `ALL.csv` and coverts all the names in the columns to comma-separated string.
+Read a file `ALL.csv` and covert all the strings in the column to a comma-separated string.
 
 ```R
 names <- readLines("ALL.csv")
@@ -82,7 +82,7 @@ var app = express();
 app.use(secure);
 ```
 
-## Technologies
+## Continuous Integration
 
 ### TravisCI
 
