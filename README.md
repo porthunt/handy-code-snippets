@@ -107,7 +107,7 @@ Notable commands:
 
 ### Linux
 
-- Check your systems specs on your Terminal: `lshw` Use `--short` to show a short version.
+- Check your systems specs on your Terminal: `lshw`. Use `--short` to show a short version.
 
 ### Unix
 
