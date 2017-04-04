@@ -75,6 +75,17 @@ var app = express();
 app.use(secure);
 ```
 
+Use an HTTP request and create a promise.
+
+```javascript
+var deferred = $q.defer();
+
+# correct: deferred.resolve(response.data);
+# error: deferred.reject(err);
+
+return deferred.promise;
+```
+
 ### pytest
 
 Use `-s` option to show all prints when using `pytest` command.
